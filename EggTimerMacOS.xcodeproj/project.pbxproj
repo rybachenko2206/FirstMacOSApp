@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42855E081F0E573F00E7072F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42855E071F0E573F00E7072F /* AppDelegate.swift */; };
+		42855E0A1F0E573F00E7072F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42855E091F0E573F00E7072F /* ViewController.swift */; };
+		42855E0C1F0E573F00E7072F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42855E0B1F0E573F00E7072F /* Assets.xcassets */; };
+		42855E0F1F0E573F00E7072F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42855E0D1F0E573F00E7072F /* Main.storyboard */; };
+		42855E1F1F14CD0000E7072F /* PreferencesVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42855E1E1F14CD0000E7072F /* PreferencesVc.swift */; };
+		42855E241F14EDD400E7072F /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42855E231F14EDD400E7072F /* EggTimer.swift */; };
+		42855E261F14EE8E00E7072F /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42855E251F14EE8E00E7072F /* Enums.swift */; };
+		42855E281F14FD8C00E7072F /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42855E271F14FD8C00E7072F /* Preferences.swift */; };
+		42855E2A1F150D9200E7072F /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42855E291F150D9200E7072F /* TimeInterval.swift */; };
+		42855E2D1F15135800E7072F /* PrintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42855E2C1F15135800E7072F /* PrintExtensions.swift */; };
+		42855E311F163FD500E7072F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42855E301F163FD500E7072F /* Bool.swift */; };
+		42855E331F1640C400E7072F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42855E321F1640C400E7072F /* Player.swift */; };
+		42855E361F1643E600E7072F /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42855E351F1643E600E7072F /* ding.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42855E041F0E573F00E7072F /* EggTimerMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimerMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42855E071F0E573F00E7072F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42855E091F0E573F00E7072F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42855E0B1F0E573F00E7072F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42855E0E1F0E573F00E7072F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42855E101F0E573F00E7072F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42855E1E1F14CD0000E7072F /* PreferencesVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesVc.swift; sourceTree = "<group>"; };
+		42855E201F14EC9300E7072F /* EggTimerMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggTimerMacOS.entitlements; sourceTree = "<group>"; };
+		42855E231F14EDD400E7072F /* EggTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
+		42855E251F14EE8E00E7072F /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		42855E271F14FD8C00E7072F /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		42855E291F150D9200E7072F /* TimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
+		42855E2C1F15135800E7072F /* PrintExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintExtensions.swift; sourceTree = "<group>"; };
+		42855E301F163FD500E7072F /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		42855E321F1640C400E7072F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		42855E351F1643E600E7072F /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42855E011F0E573F00E7072F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42855DFB1F0E573F00E7072F = {
+			isa = PBXGroup;
+			children = (
+				42855E061F0E573F00E7072F /* EggTimerMacOS */,
+				42855E051F0E573F00E7072F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42855E051F0E573F00E7072F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42855E041F0E573F00E7072F /* EggTimerMacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42855E061F0E573F00E7072F /* EggTimerMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				42855E201F14EC9300E7072F /* EggTimerMacOS.entitlements */,
+				42855E171F0E575300E7072F /* Classes */,
+				42855E161F0E574400E7072F /* Resources */,
+			);
+			path = EggTimerMacOS;
+			sourceTree = "<group>";
+		};
+		42855E161F0E574400E7072F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42855E0D1F0E573F00E7072F /* Main.storyboard */,
+				42855E0B1F0E573F00E7072F /* Assets.xcassets */,
+				42855E341F1643E600E7072F /* Audiofiles */,
+				42855E101F0E573F00E7072F /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		42855E171F0E575300E7072F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				42855E071F0E573F00E7072F /* AppDelegate.swift */,
+				42855E2B1F15131B00E7072F /* Extensions */,
+				42855E221F14ED6A00E7072F /* Models */,
+				42855E211F14ED5700E7072F /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		42855E211F14ED5700E7072F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				42855E091F0E573F00E7072F /* ViewController.swift */,
+				42855E1E1F14CD0000E7072F /* PreferencesVc.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		42855E221F14ED6A00E7072F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42855E231F14EDD400E7072F /* EggTimer.swift */,
+				42855E271F14FD8C00E7072F /* Preferences.swift */,
+				42855E321F1640C400E7072F /* Player.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		42855E2B1F15131B00E7072F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42855E291F150D9200E7072F /* TimeInterval.swift */,
+				42855E2C1F15135800E7072F /* PrintExtensions.swift */,
+				42855E251F14EE8E00E7072F /* Enums.swift */,
+				42855E301F163FD500E7072F /* Bool.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		42855E341F1643E600E7072F /* Audiofiles */ = {
+			isa = PBXGroup;
+			children = (
+				42855E351F1643E600E7072F /* ding.mp3 */,
+			);
+			path = Audiofiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42855E031F0E573F00E7072F /* EggTimerMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42855E131F0E573F00E7072F /* Build configuration list for PBXNativeTarget "EggTimerMacOS" */;
+			buildPhases = (
+				42855E001F0E573F00E7072F /* Sources */,
+				42855E011F0E573F00E7072F /* Frameworks */,
+				42855E021F0E573F00E7072F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggTimerMacOS;
+			productName = EggTimerMacOS;
+			productReference = 42855E041F0E573F00E7072F /* EggTimerMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42855DFC1F0E573F00E7072F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Roman Rybachenko";
+				TargetAttributes = {
+					42855E031F0E573F00E7072F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UHJFHS6M7R;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 42855DFF1F0E573F00E7072F /* Build configuration list for PBXProject "EggTimerMacOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42855DFB1F0E573F00E7072F;
+			productRefGroup = 42855E051F0E573F00E7072F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42855E031F0E573F00E7072F /* EggTimerMacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42855E021F0E573F00E7072F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42855E0C1F0E573F00E7072F /* Assets.xcassets in Resources */,
+				42855E0F1F0E573F00E7072F /* Main.storyboard in Resources */,
+				42855E361F1643E600E7072F /* ding.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42855E001F0E573F00E7072F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42855E2A1F150D9200E7072F /* TimeInterval.swift in Sources */,
+				42855E0A1F0E573F00E7072F /* ViewController.swift in Sources */,
+				42855E241F14EDD400E7072F /* EggTimer.swift in Sources */,
+				42855E281F14FD8C00E7072F /* Preferences.swift in Sources */,
+				42855E261F14EE8E00E7072F /* Enums.swift in Sources */,
+				42855E311F163FD500E7072F /* Bool.swift in Sources */,
+				42855E2D1F15135800E7072F /* PrintExtensions.swift in Sources */,
+				42855E081F0E573F00E7072F /* AppDelegate.swift in Sources */,
+				42855E331F1640C400E7072F /* Player.swift in Sources */,
+				42855E1F1F14CD0000E7072F /* PreferencesVc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42855E0D1F0E573F00E7072F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42855E0E1F0E573F00E7072F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42855E111F0E573F00E7072F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42855E121F0E573F00E7072F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		42855E141F0E573F00E7072F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggTimerMacOS/EggTimerMacOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UHJFHS6M7R;
+				INFOPLIST_FILE = EggTimerMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rrybachenko.EggTimerMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42855E151F0E573F00E7072F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggTimerMacOS/EggTimerMacOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UHJFHS6M7R;
+				INFOPLIST_FILE = EggTimerMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rrybachenko.EggTimerMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42855DFF1F0E573F00E7072F /* Build configuration list for PBXProject "EggTimerMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42855E111F0E573F00E7072F /* Debug */,
+				42855E121F0E573F00E7072F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42855E131F0E573F00E7072F /* Build configuration list for PBXNativeTarget "EggTimerMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42855E141F0E573F00E7072F /* Debug */,
+				42855E151F0E573F00E7072F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42855DFC1F0E573F00E7072F /* Project object */;
+}
